@@ -623,7 +623,7 @@ button:hover,
 /* Steam */
 .button.button-steam {
   color: #ffffff;
-  background-color: #171a21;
+  background-image: linear-gradient(-135deg, #000328, #00458e);
 }
 
 .button.button-steam:hover,
@@ -778,7 +778,7 @@ button:hover,
 /* Website */
 .button.button-web {
   color: #ffffff;
-  background-color: #000000;
+  background-image: linear-gradient(-135deg, #130F40, #0c0e10, #111111);
 }
 
 .button.button-web:hover,
@@ -822,7 +822,7 @@ button:hover,
 /* YouTube */
 .button.button-yt {
   color: #ffffff;
-  background-color: #000000;
+  background-color: #ff0a0a;
 }
 
 .button.button-yt:hover,
