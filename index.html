@@ -504,18 +504,13 @@
                     <div><img align="left" src="/images/rate_w.png" alt="like" width="80"></div>
                 </footer>
 
-                <script>
-                    let docTitle = document.title
+                <script src="./script.js"></script>
 
-                    window.addEventListener('blur', () => {
-                        document.title = 'Ooops, ainda estou aqui!'
-                    })
-
-                    window.addEventListener('focus', () => {
-                        document.title = docTitle
-                    })
-                </script>
-
+                <!-- The above code is including an external JavaScript file from the URL
+                "https://analytics.is-a.dev/js/script.js" in the HTML document. The `defer`
+                attribute indicates that the script should be executed after the HTML document has
+                been parsed. The `data-domain` attribute is setting the value "vinicius.is-a.dev" as
+                a custom data attribute for the script. -->
                 <script defer data-domain="vinicius.is-a.dev" src="https://analytics.is-a.dev/js/script.js"></script>
             </div>
         </div>
