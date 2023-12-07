@@ -663,6 +663,12 @@ button:hover,
   background-color: #ffe2eb;
 }
 
+/* PIX */
+.button.button-pix {
+  color: #ffffff;
+  background-color: #00bdae;
+}
+
 .button.button-pinterest:hover,
 .button.button-pinterest:focus {
   filter: brightness(90%);
