@@ -3,7 +3,7 @@ events. */
 let docTitle = document.title
 
 window.addEventListener('blur', () => {
-    document.title = '🔙 Ooops, ainda estou aqui!'
+    document.title = 'Ooops, ainda estou aqui!'
 })
 
 window.addEventListener('focus', () => {
