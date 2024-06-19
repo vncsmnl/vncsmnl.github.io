@@ -452,21 +452,20 @@ th {
    ========================================================================== */
 
 @keyframes bounce {
-
-  0%,
-  20%,
-  50%,
-  80%,
-  100% {
-    transform: translateX(0);
+  20% {
+    transform: translateY(-6px);
   }
 
   40% {
-    transform: translateX(-5px);
+    transform: translateY(0px);
   }
 
-  60% {
-    transform: translateX(-5px);
+  80% {
+    transform: translateY(-2px);
+  }
+
+  100% {
+    transform: translateY(0);
   }
 }
 
