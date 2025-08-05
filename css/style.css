@@ -303,6 +303,29 @@ button {
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Light theme is default above */
 
+/* Light theme explicit */
+:root.theme-light {
+	color-scheme: light;
+}
+
+:root.theme-light :focus-visible {
+	outline: 2px solid #4899F7;
+	outline-offset: 2px;
+}
+
+:root.theme-light body {
+	background-color: #ffffff;
+	color: #414141;
+}
+
+:root.theme-light a:not(.button) {
+	color: #4899F7;
+}
+
+:root.theme-light a:not(.button):hover {
+	color: #0071DB;
+}
+
 /* Dark theme */
 :root.theme-dark {
 	color-scheme: dark;
