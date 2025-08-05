@@ -288,8 +288,8 @@ button:hover {
 
 /* ORCID ID */
 .button-orcid-id {
-	--button-text: #000000;
-	--button-background: #FFFFFF;
+	--button-text: #ffffff;
+	background-image: linear-gradient(135deg, #A6CE39, #89b72e);
 }
 
 /* osu! */
