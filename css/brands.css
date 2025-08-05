@@ -10,24 +10,24 @@
 /* Only include brand-specific button styling here */
 .button,
 button {
-    color: var(--button-text, #000000);
-    background-color: var(--button-background, transparent);
-    border: var(--button-border, none);
-    transition: filter 0.2s ease, transform 0.2s ease;
+	color: var(--button-text, #000000);
+	background-color: var(--button-background, transparent);
+	border: var(--button-border, none);
+	transition: filter 0.2s ease, transform 0.2s ease;
 }
 
 /* Global Button Hover Effect
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .button:hover,
 button:hover {
-    filter: brightness(90%);
-    transform: translateY(-1px);
+	filter: brightness(90%);
+	transform: translateY(-1px);
 }
 
 /* Button Icons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .icon {
-    filter: var(--icon-filter, none);
+	filter: var(--icon-filter, none);
 }
 
 /* Brand-Specific Styles
@@ -35,560 +35,560 @@ button:hover {
 
 /* Default */
 .button.button-default {
-    --button-text: #ffffff;
-    --button-background: #2457F5;
-
+	--button-text: #ffffff;
+	--button-background: linear-gradient(135deg, #2457F5, #00D4FF);
+	background: var(--button-background);
 }
 
 /* Amazon */
 .button-amazon {
-    --button-text: #000000;
-    --button-background: #FFFFFF;
+	--button-text: #000000;
+	--button-background: #FFFFFF;
 
 }
 
 /* Amazon Music */
 .button-amazon-music {
-    --button-text: #000000;
-    --button-background: #25D1DA;
+	--button-text: #000000;
+	--button-background: #25D1DA;
 }
 
 /* Apple App Store */
 .button-appstore {
-    --button-text: #FFFFFF;
-    --button-background: #000000;
+	--button-text: #FFFFFF;
+	--button-background: #000000;
 
 }
 
 /* Apple Music */
 .button-apple-music {
-    --button-text: #ffffff;
-    --button-background: #000000;
+	--button-text: #ffffff;
+	--button-background: #000000;
 
 }
 
 /* Apple Music Alt */
 .button-apple-music-alt {
-    --button-text: #ffffff;
-    background-image: linear-gradient(to bottom, #FB5C74, #FA233B);
+	--button-text: #ffffff;
+	background-image: linear-gradient(to bottom, #FB5C74, #FA233B);
 }
 
 /* Apple Podcasts */
 .button-apple-podcasts {
-    --button-text: #ffffff;
-    --button-background: #000000;
+	--button-text: #ffffff;
+	--button-background: #000000;
 
 }
 
 /* Apple Podcasts Alt */
 .button-apple-podcasts-alt {
-    --button-text: #ffffff;
-    background-image: linear-gradient(to bottom, #F452FF, #832BC1);
+	--button-text: #ffffff;
+	background-image: linear-gradient(to bottom, #F452FF, #832BC1);
 }
 
 /* Bandcamp */
 .button-bandcamp {
-    --button-text: #ffffff;
-    --button-background: #1d9fc3;
+	--button-text: #ffffff;
+	--button-background: #1d9fc3;
 }
 
 /* Behance */
 .button-behance {
-    --button-text: #ffffff;
-    --button-background: #0057FF;
+	--button-text: #ffffff;
+	--button-background: #0057FF;
 
 }
 
 /* Bluesky */
 .button-bluesky {
-    --button-text: #FFFFFF;
-    --button-background: #1185FE;
+	--button-text: #FFFFFF;
+	--button-background: #1185FE;
 }
 
 /* Bluesky Alt */
 .button-bluesky-alt {
-    --button-text: #000000;
-    --button-background: #FFFFFF;
+	--button-text: #000000;
+	--button-background: #FFFFFF;
 
 }
 
 /* Buy Me a Coffee */
 .button-coffee {
-    --button-text: #000000;
-    --button-background: #ffdd00;
+	--button-text: #000000;
+	--button-background: #ffdd00;
 }
 
 /* Cal.com */
 .button-cal {
-    --button-text: #FFFFFF;
-    --button-background: #292929;
+	--button-text: #FFFFFF;
+	--button-background: #292929;
 
 }
 
 /* Calendly */
 .button-calendly {
-    --button-text: #FFFFFF;
-    --button-background: #006BFF;
+	--button-text: #FFFFFF;
+	--button-background: #006BFF;
 }
 
 /* Cash App */
 .button-cash-app {
-    --button-text: #ffffff;
-    background-image: linear-gradient(to bottom, #00d64b, #00c244);
+	--button-text: #ffffff;
+	background-image: linear-gradient(to bottom, #00d64b, #00c244);
 }
 
 /* dev.to */
 .button-dev-to {
-    --button-text: #000000;
-    --button-background: #f5f5f5;
+	--button-text: #000000;
+	--button-background: #f5f5f5;
 
 }
 
 /* Discogs */
 .button-discogs {
-    --button-text: #000000;
-    --button-background: #FFFFFF;
+	--button-text: #000000;
+	--button-background: #FFFFFF;
 
 }
 
 /* Discogs Alt */
 .button-discogs-alt {
-    --button-text: #FFFFFF;
-    --button-background: #000000;
+	--button-text: #FFFFFF;
+	--button-background: #000000;
 
 }
 
 /* Discord */
 .button-discord {
-    --button-text: #ffffff;
-    --button-background: #5865F2;
+	--button-text: #ffffff;
+	--button-background: #5865F2;
 }
 
 /* Dribbble */
 .button-dribbble {
-    --button-text: #000000;
-    --button-background: #FFFFFF;
+	--button-text: #000000;
+	--button-background: #FFFFFF;
 
 }
 
 /* Etsy */
 .button-etsy {
-    --button-text: #ffffff;
-    --button-background: #F45800;
+	--button-text: #ffffff;
+	--button-background: #F45800;
 }
 
 /* Facebook */
 .button-faceb {
-    --button-text: #ffffff;
-    --button-background: #1877f2;
+	--button-text: #ffffff;
+	--button-background: #1877f2;
 }
 
 /* Facebook Messenger */
 .button-messenger {
-    --button-text: #ffffff;
-    background-image: linear-gradient(25deg, #0099ff, #5f5dff, #a033ff, #c740cc, #ff5280, #ff7061);
+	--button-text: #ffffff;
+	background-image: linear-gradient(25deg, #0099ff, #5f5dff, #a033ff, #c740cc, #ff5280, #ff7061);
 }
 
 /* Figma */
 .button-figma {
-    --button-text: #ffffff;
-    --button-background: #000000;
+	--button-text: #ffffff;
+	--button-background: #000000;
 
 }
 
 /* Fiverr */
 .button-fiverr {
-    --button-text: #ffffff;
-    --button-background: #1DBF73;
+	--button-text: #ffffff;
+	--button-background: #1DBF73;
 }
 
 /* Flickr */
 .button-flickr {
-    --button-text: #ffffff;
-    --button-background: #000000;
+	--button-text: #ffffff;
+	--button-background: #000000;
 
 }
 
 /* GitHub */
 .button-github {
-    --button-text: #ffffff;
-    --button-background: #000000;
+	--button-text: #ffffff;
+	--button-background: #000000;
 
 }
 
 /* GitLab */
 .button-gitlab {
-    --button-text: #ffffff;
-    --button-background: #6151b2;
+	--button-text: #ffffff;
+	--button-background: #6151b2;
 }
 
 /* GoFundMe */
 .button-gofundme {
-    --button-text: #ffffff;
-    --button-background: #02A95C;
+	--button-text: #ffffff;
+	--button-background: #02A95C;
 }
 
 /* Goodreads */
 .button-goodreads {
-    --button-text: #333333;
-    --button-background: #f3f1e6;
+	--button-text: #333333;
+	--button-background: #f3f1e6;
 
 }
 
 /* Google Black */
 .button-google-black {
-    --button-text: #FFFFFF;
-    --button-background: #000000;
+	--button-text: #FFFFFF;
+	--button-background: #000000;
 
 }
 
 /* Google Play Store */
 .button-playstore {
-    --button-text: #FFFFFF;
-    --button-background: #000000;
+	--button-text: #FFFFFF;
+	--button-background: #000000;
 
 }
 
 /* Google Scholar */
 .button-google-scholar {
-    --button-text: #000000;
-    --button-background: #FFFFFF;
+	--button-text: #000000;
+	--button-background: #FFFFFF;
 
 }
 
 /* Hashnode */
 .button-hashnode {
-    --button-text: #000000;
-    --button-background: #ffffff;
+	--button-text: #000000;
+	--button-background: #ffffff;
 
 }
 
 /* Instagram */
 .button-instagram {
-    --button-text: #ffffff;
-    background-image: linear-gradient(-135deg, #1400c8, #b900b4, #f50000);
+	--button-text: #ffffff;
+	background-image: linear-gradient(-135deg, #1400c8, #b900b4, #f50000);
 }
 
 /* Kick */
 .button-kick {
-    --button-text: #ffffff;
-    --button-background: #000000;
+	--button-text: #ffffff;
+	--button-background: #000000;
 
 }
 
 /* Kick Alt */
 .button-kick-alt {
-    --button-text: #000000;
-    --button-background: #01e701;
+	--button-text: #000000;
+	--button-background: #01e701;
 }
 
 /* Kickstarter */
 .button-kickstarter {
-    --button-text: #ffffff;
-    --button-background: #05ce78;
+	--button-text: #ffffff;
+	--button-background: #05ce78;
 }
 
 /* Kit */
 .button-kit {
-    --button-text: #ffffff;
-    --button-background: #000000;
+	--button-text: #ffffff;
+	--button-background: #000000;
 
 }
 
 /* Ko-fi */
 .button-ko-fi {
-    --button-text: #ffffff;
-    --button-background: #000000;
+	--button-text: #ffffff;
+	--button-background: #000000;
 
 }
 
 /* Last.fm */
 .button-last-fm {
-    --button-text: #ffffff;
-    --button-background: #D51007;
+	--button-text: #ffffff;
+	--button-background: #D51007;
 }
 
 /* Letterboxd */
 .button-letterboxd {
-    --button-text: #ffffff;
-    --button-background: #2c3440;
+	--button-text: #ffffff;
+	--button-background: #2c3440;
 
 }
 
 /* Line */
 .button-line {
-    --button-text: #FFFFFF;
-    --button-background: #06C755;
+	--button-text: #FFFFFF;
+	--button-background: #06C755;
 }
 
 /* LinkedIn */
 .button-linked {
-    --button-text: #ffffff;
-    --button-background: #2867b2;
+	--button-text: #ffffff;
+	--button-background: #2867b2;
 }
 
 /* Mailchimp */
 .button-mailchimp {
-    --button-text: #000000;
-    --button-background: #FFE01B;
+	--button-text: #000000;
+	--button-background: #FFE01B;
 }
 
 /* Mastodon */
 .button-mastodon {
-    --button-text: #ffffff;
-    --button-background: #17063B;
+	--button-text: #ffffff;
+	--button-background: #17063B;
 
 }
 
 /* Medium */
 .button-medium {
-    --button-text: #ffffff;
-    --button-background: #000000;
+	--button-text: #ffffff;
+	--button-background: #000000;
 
 }
 
 /* Microsoft */
 .button-microsoft {
-    --button-text: #ffffff;
-    --button-background: #000000;
+	--button-text: #ffffff;
+	--button-background: #000000;
 
 }
 
 /* Notion */
 .button-notion {
-    --button-text: #000000;
-    --button-background: #ffffff;
+	--button-text: #000000;
+	--button-background: #ffffff;
 
 }
 
 /* OnlyFans */
 .button-onlyfans {
-    --button-text: #ffffff;
-    --button-background: #00AEEF;
+	--button-text: #ffffff;
+	--button-background: #00AEEF;
 }
 
 /* Patreon */
 .button-patreon {
-    --button-text: #ffffff;
-    --button-background: #000000;
+	--button-text: #ffffff;
+	--button-background: #000000;
 
 }
 
 /* PayPal */
 .button-paypal {
-    --button-text: #ffffff;
-    --button-background: #002991;
+	--button-text: #ffffff;
+	--button-background: #002991;
 
 }
 
 /* Pinterest */
 .button-pinterest {
-    --button-text: #000000;
-    --button-background: #ffffff;
+	--button-text: #000000;
+	--button-background: #ffffff;
 
 }
 
 /* Product Hunt */
 .button-product-hunt {
-    --button-text: #000000;
-    --button-background: #ffffff;
+	--button-text: #000000;
+	--button-background: #ffffff;
 
 }
 
 /* Read.cv */
 .button-read-cv {
-    --button-text: #FFFFFF;
-    --button-background: #000000;
+	--button-text: #FFFFFF;
+	--button-background: #000000;
 
 }
 
 /* Reddit */
 .button-reddit {
-    --button-text: #FFFFFF;
-    --button-background: #FF4500;
+	--button-text: #FFFFFF;
+	--button-background: #FF4500;
 }
 
 /* Shop */
 .button-shop {
-    --button-text: #ffffff;
-    --button-background: #5A31F4;
+	--button-text: #ffffff;
+	--button-background: #5A31F4;
 }
 
 /* Signal */
 .button-signal {
-    --button-text: #ffffff;
-    --button-background: #3a76f0;
+	--button-text: #ffffff;
+	--button-background: #3a76f0;
 }
 
 /* Slack */
 .button-slack {
-    --button-text: #000000;
-    --button-background: #FFFFFF;
+	--button-text: #000000;
+	--button-background: #FFFFFF;
 
 }
 
 /* Snapchat */
 .button-snapchat {
-    --button-text: #000000;
-    --button-background: #fffc00;
+	--button-text: #000000;
+	--button-background: #fffc00;
 }
 
 /* SoundCloud */
 .button-soundcloud {
-    --button-text: #ffffff;
-    --button-background: #ff5500;
+	--button-text: #ffffff;
+	--button-background: #ff5500;
 }
 
 /* Spotify */
 .button-spotify {
-    --button-text: #191414;
-    --button-background: #1db954;
+	--button-text: #191414;
+	--button-background: #1db954;
 }
 
 /* Spotify Alt */
 .button-spotify-alt {
-    --button-text: #FFFFFF;
-    --button-background: #191414;
+	--button-text: #FFFFFF;
+	--button-background: #191414;
 
 }
 
 /* Square */
 .button-square {
-    --button-text: #FFFFFF;
-    --button-background: #006AFF;
+	--button-text: #FFFFFF;
+	--button-background: #006AFF;
 }
 
 /* Stack Overflow */
 .button-stack-overflow {
-    --button-text: #000000;
-    --button-background: #FFFFFF;
+	--button-text: #000000;
+	--button-background: #FFFFFF;
 
 }
 
 /* Steam */
 .button-steam {
-    --button-text: #ffffff;
-    background-image: linear-gradient(90deg, #08BBFF, #2B75FF);
+	--button-text: #ffffff;
+	background-image: linear-gradient(90deg, #08BBFF, #2B75FF);
 }
 
 /* Steam Alt */
 .button-steam-alt {
-    --button-text: #ffffff;
-    background-image: linear-gradient(90deg, #09172a, #072a57, #0c5085);
+	--button-text: #ffffff;
+	background-image: linear-gradient(90deg, #09172a, #072a57, #0c5085);
 
 }
 
 /* Strava */
 .button-strava {
-    --button-text: #ffffff;
-    --button-background: #fc5200;
+	--button-text: #ffffff;
+	--button-background: #fc5200;
 }
 
 /* Substack */
 .button-substack {
-    --button-text: #ffffff;
-    --button-background: #FF6719;
+	--button-text: #ffffff;
+	--button-background: #FF6719;
 }
 
 /* Telegram */
 .button-telegram {
-    --button-text: #ffffff;
-    --button-background: #3faee8;
+	--button-text: #ffffff;
+	--button-background: #3faee8;
 }
 
 /* Threads */
 .button-threads {
-    --button-text: #FFFFFF;
-    --button-background: #000000;
+	--button-text: #FFFFFF;
+	--button-background: #000000;
 
 }
 
 /* Threema */
 .button-threema {
-    --button-text: #000000;
-    --button-background: #3fe669;
+	--button-text: #000000;
+	--button-background: #3fe669;
 }
 
 /* TikTok */
 .button-tiktok {
-    --button-text: #ffffff;
-    --button-background: #000000;
+	--button-text: #ffffff;
+	--button-background: #000000;
 
 }
 
 /* Trello */
 .button-trello {
-    --button-text: #ffffff;
-    --button-background: #0065ff;
+	--button-text: #ffffff;
+	--button-background: #0065ff;
 }
 
 /* Tumblr */
 .button-tumb {
-    --button-text: #ffffff;
-    --button-background: #131313;
+	--button-text: #ffffff;
+	--button-background: #131313;
 
 }
 
 /* Twitch */
 .button-twitch {
-    --button-text: #ffffff;
-    --button-background: #9146ff;
+	--button-text: #ffffff;
+	--button-background: #9146ff;
 }
 
 /* Unsplash */
 .button-unsplash {
-    --button-text: #000000;
-    --button-background: #ffffff;
+	--button-text: #000000;
+	--button-background: #ffffff;
 
 }
 
 /* Venmo */
 .button-venmo {
-    --button-text: #ffffff;
-    --button-background: #008CFF;
+	--button-text: #ffffff;
+	--button-background: #008CFF;
 }
 
 /* Vimeo */
 .button-vimeo {
-    --button-text: #ffffff;
-    --button-background: #1ab7ea;
+	--button-text: #ffffff;
+	--button-background: #1ab7ea;
 }
 
 /* VSCO */
 .button-vsco {
-    --button-text: #FFFFFF;
-    --button-background: #000000;
+	--button-text: #FFFFFF;
+	--button-background: #000000;
 
 }
 
 /* WhatsApp */
 .button-whatsapp {
-    --button-text: #ffffff;
-    --button-background: #455a64;
+	--button-text: #ffffff;
+	--button-background: #455a64;
 }
 
 /* WordPress */
 .button-wordpress {
-    --button-text: #ffffff;
-    --button-background: #3858E9;
+	--button-text: #ffffff;
+	--button-background: #3858E9;
 }
 
 /* X */
 .button-x {
-    --button-text: #FFFFFF;
-    --button-background: #000000;
+	--button-text: #FFFFFF;
+	--button-background: #000000;
 
 }
 
 /* YouTube */
 .button-yt {
-    --button-text: #ffffff;
-    --button-background: #e60000;
+	--button-text: #ffffff;
+	--button-background: #e60000;
 }
 
 /* Zoom */
 .button-zoom {
-    --button-text: #ffffff;
-    --button-background: #0B5CFF;
+	--button-text: #ffffff;
+	--button-background: #0B5CFF;
 
 }
