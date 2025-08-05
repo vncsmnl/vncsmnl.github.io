@@ -82,7 +82,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: #eeeeee;
-	color: #1a1a1a;
+	color: #121212;
 	font-family: "Open Sans", system-ui;
 	font-size: 1.125rem;
 	/* 18px */
@@ -314,8 +314,8 @@ button {
 }
 
 :root.theme-light body {
-	background-color: #ffffff;
-	color: #414141;
+	background-color: #eeeeee;
+	color: #121212;
 }
 
 :root.theme-light a:not(.button) {
@@ -338,7 +338,7 @@ button {
 
 :root.theme-dark body {
 	background-color: #121212;
-	color: #ffffff;
+	color: #eeeeee;
 }
 
 :root.theme-dark a:not(.button) {
@@ -357,7 +357,7 @@ button {
 @media (prefers-color-scheme:dark) {
 	:root.theme-auto body {
 		background-color: #121212;
-		color: #ffffff;
+		color: #eeeeee;
 	}
 
 	:root.theme-auto :focus-visible {
