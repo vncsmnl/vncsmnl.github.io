@@ -8,7 +8,7 @@
  */
 const CONFIG = {
 	MESSAGES: {
-		BLUR_TITLE: 'Ooops, ainda estou aqui!'
+		BLUR_TITLE: 'ウイルスが検出されました! ⚠️'
 	},
 	IMAGES: {
 		signature: {
