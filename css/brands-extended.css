@@ -189,6 +189,12 @@ button:hover {
 	--button-border: 1px solid #000000;
 }
 
+/* Hevy */
+.button-hevy {
+	--button-text: #FFFFFF;
+	--button-background: #2c2c2e;
+}
+
 /* itch.io */
 .button-itchio {
 	--button-text: #FFFFFF;
