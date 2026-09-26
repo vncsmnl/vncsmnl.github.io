@@ -272,6 +272,22 @@ button {
 	flex-shrink: 0;
 }
 
+/* Promotional image and section divider */
+.promo-stamp {
+	width: min(100%, 7rem);
+	height: auto;
+	margin: 0 auto 1rem;
+}
+
+.button-stack hr {
+	width: 75%;
+	height: 1px;
+	margin: 0.75rem auto 1.75rem;
+	border: 0;
+	background-color: currentColor;
+	opacity: 0.25;
+}
+
 /* Avatar
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .avatar {
